@@ -28,7 +28,8 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 [Example](https://github.com/bloominstituteoftechnology/web-sprint-challenge-intro-to-react/blob/main/Assets/sample-screenshot.png)
 
-[Another example](https://github.com/bloominstituteoftechnology/web-sprint-challenge-intro-to-react/blob/main/Assets/sample-screenshot2.png)
+[Another example](https://github.co
+m/bloominstituteoftechnology/web-sprint-challenge-intro-to-react/blob/main/Assets/sample-screenshot2.png)
 
 ### Instructions
 
