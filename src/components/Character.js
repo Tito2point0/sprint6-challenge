@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 const Card = styled.div`
 
@@ -15,6 +15,7 @@ const RedText = styled.span`
   color: red;
   display: flex;
   flex-direction: column;
+  
 `;
 
 // Styled component for character container with flex layout and borders
@@ -25,9 +26,10 @@ const CharacterContainer = styled.div`
   border: 13px solid black;
   padding: 10px;
   width: 50%;
-  color: white;
+  color: royalblue;
   border-radius: 13cqmin;
   margin: 0 auto; /* Add this line to center the container horizontally */
+  background-color: aquamarine
 `;
 
 
@@ -51,7 +53,7 @@ const Character = (props) => {
         char.map((charmander) => {
           return (
             <CharacterContainer key={charmander.name}>
-              {/* Apply the RedText styled component conditionally */}
+              
               <h3>
                 name:{" "}
                 {detailsVisible ? <RedText>{charmander.name}</RedText> : charmander.name}
